@@ -1,0 +1,22 @@
+:root {
+    --cor-primaria: hsl(198, 60%, 50%);
+    --cor-secundaria: hsl(0, 100%, 63%);    
+    --cor-branca: #fff;
+    --cor-fundo-escuro: #040203;    
+    --cor-fundo-cinza-azulado: hsl(219, 30%, 18%);
+    --cor-fundo-cinza-azul: linear-gradient(180deg, hsl(219, 30%, 18%), hsl(199, 80%, 23%));
+  
+  }
+    
+  :root {
+    --fonte-primaria: 'Open Sans', sans serif;
+    --fonte-secundaria: 'Orbitron', sans serif;
+    --fonte-gigante: 4.5rem;
+    --fonte-extra-grande: 3rem;
+    --fonte-grande: 2.4rem;
+    --fonte-normal: 1.6rem;
+  }
+  
+  :root {
+    --mobile-padding: 30px;
+  }
