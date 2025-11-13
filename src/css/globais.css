@@ -1,89 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap');
+
 html {
-    font-size: 62.5%;
-    color: var(--cor-branca);
-    font-weight: 300;
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    background-color: var(--cor-fundo-cinza-azulado);
-    font-family: var(--fonte-primaria);
-    font-size: var(--fonte-normal);
-  }
+  font-size: 62.5%;
+  color: var(--cor-branca);
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
 
-  .container {
-    max-width: 1140px;
-    margin: auto;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .justify-content-between {
-    justify-content: space-between;
-  }
-  
-  .alinhar-itens-no-centro {
-    align-items: center;
-  }
+body {
+  background-color: var(--cor-fundo-cinza-azulado);
+  font-family: var(--fonte-primaria);
+  font-size: var(--fonte-normal);
+}
 
-  .redes-sociais a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    font-size: 1.8rem;
-    text-align: center;
-    color: var(--cor-branca);
-    margin: 0 4px;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-  }
-  
-  .redes-sociais a i {
-    line-height: 40px;
-  }
-  
-  .redes-sociais a:hover {
-    color: var(--cor-primaria);
-  }
-  
-  .outer-shadow {
-    box-shadow: 3px 3px 6px hsl(216, 53%, 9%), -3px -3px 6px hsl(198, 60%, 50%);
-  }
-  
-  .inner-shadow {
-    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
-  }
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
 
-  .section{
-    padding: 7rem 0 7rem;
-  }
-  
-  .section-title {
-    text-align: center;
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 60px 0;
-  }
-  
-  .section-title h2 {
-    font-size: var(--fonte-gigante);
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-  
-  .botao {
-    font-size: var(--fonte-grande);
-    padding: 10px 20px;
-    border-radius: 20px;
-    transition: all .3s ease;
-    background-color: var(--cor-primaria);
-  }
-  
-  .botao:hover {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-branca);
-  }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.alinhar-itens-no-centro {
+  align-items: center;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--cor-branca);
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.redes-sociais a i {
+  line-height: 40px;
+}
+
+.redes-sociais a:hover {
+  color: var(--cor-primaria);
+}
+
+.outer-shadow {
+  box-shadow: 3px 3px 6px hsl(30, 80%, 10%), -3px -3px 6px hsl(25, 90%, 55%)
+}
+
+.inner-shadow {
+  box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+}
+
+.section {
+  padding: 7rem 0 7rem;
+}
+
+.section-title {
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 60px 0;
+}
+
+.section-title h2 {
+  font-size: var(--fonte-gigante);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.botao {
+  font-size: var(--fonte-grande);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all .3s ease;
+  background-color: var(--cor-primaria);
+}
+
+.botao:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-branca);
+}
